@@ -1,16 +1,18 @@
 # Summary
 
-[Introduction](prefix/introduction.md)
+[Introduction](introduction.md)
 
-[Preface](prefix/preface.md)
+[An Informatising World](preface/an_informatising_world.md)
 
-[Book Structure](prefix/book_structure.md)
+[Why we wrote this book?](preface/why_we_wrote.md)
 
-[About the Source Code](prefix/about_the_source_code.md)
+[Book Structure](preface/book_structure.md)
 
-[Author's Note](prefix/authors_note.md)
+[About the Source Code](preface/about_the_source_code.md)
 
-[How to use this book?](prefix/how_to_use.md)
+[Author’s Note](preface/authors_note.md)
+
+[How to use this book?](preface/how_to_use.md)
 
 # Preparation
 
