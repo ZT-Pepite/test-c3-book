@@ -2,14 +2,6 @@
 
 [Introduction](introduction.md)
 
-[An Informatising World](preface/an_informatising_world.md)
-
-[Why we wrote this book?](preface/why_we_wrote.md)
-
-[Book Structure](preface/book_structure.md)
-
-[About the Source Code](preface/about_the_source_code.md)
-
 [Author’s Note](preface/authors_note.md)
 
 [How to use this book?](preface/how_to_use.md)

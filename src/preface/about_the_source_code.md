@@ -1,3 +1,1 @@
 # About the Source Code
-
-Readers can run the example programmes in this book, either by entering the code manually or by using the source code that accompanies the book. We emphasise the combination of theory and practice, and thus set a *Practice* section based on the Smart Light project in almost every chapter. All the codes are open-sourced. Readers are welcome to download the source code and discuss it in the sections related to this book on [GitHub](https://github.com/espressif/book-esp32c3-iot-projects) and our official forum [esp32.com](https://www.esp32.com/bookc3). The open-sourced code of this book is subject to the terms of Apache License 2.0.
