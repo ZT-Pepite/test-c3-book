@@ -14,7 +14,7 @@
 
 [How to use this book?](preface/how_to_use.md)
 
-# Preparation
+# [Preparation](chapter_1/README.md)
 
 - [Introduction to IoT](chapter_1/README.md)
     - [Architecture of IoT](chapter_1/1.1.md)
