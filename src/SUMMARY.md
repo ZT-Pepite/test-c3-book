@@ -16,11 +16,11 @@
 
 # Preparation
 
-- [Introduction to IoT](chapter_1/chapter_1.md)
+- [Introduction to IoT](chapter_1/README.md)
     - [Architecture of IoT](chapter_1/1.1.md)
     - [IoT Application in Smart Homes](chapter_1/1.2.md)
-- [Introduction and Practice of IoT Projects](chapter_2/chapter_2.md)
-    - [Introduction to Typical IoT Projects](chapter_2/2.1/2.1.md)
+- [Introduction and Practice of IoT Projects](chapter_2/README.md)
+    - [Introduction to Typical IoT Projects](chapter_2/2.1/README.md)
         - [Basic Modules for Common IoT Devices](chapter_2/2.1/2.1.1.md)
 
 - [HTTPS]()
