@@ -1,0 +1,81 @@
+% Put this file to the same directory of the Chapter *.tex file.
+% !! Also, change the definition of chapter name to normal ones,
+% e.g., change "\chapter[Firmware Upgrade and Version Management]{\chaptertitle{Firmware Upgrade and Version Management}{Firmware Upgrade and\newline Version Management}}"
+% to just "\chapter{Firmware Upgrade and Version Management}"
+% Delete the two lines about "fancyfoot" and the {\makeatletter...} (if any) before the chapter title.
+
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{subcaption}
+\graphicspath{{Pics/}}
+\usepackage{charter}
+\usepackage{fancyhdr}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{siunitx}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{parskip}
+\setlength{\parskip}{6pt}
+\usepackage{ragged2e}
+\usepackage{geometry} %margin
+\geometry{left=2.1cm,right=2.1cm,top=3cm,bottom=3cm}
+\usepackage{setspace}
+\SetSinglespace{1.2}
+\singlespacing
+\renewcommand{\ttfamily}{\fontfamily{pcr}\selectfont}
+
+\usepackage[,table]{xcolor}
+\definecolor{LightBlue}{cmyk}{0.16,0.03,0.04,0}
+\definecolor{Title}{cmyk}{0.8,0.1,0,0.3}
+\setlength{\arrayrulewidth}{0.3mm}
+\setlength{\tabcolsep}{2pt}
+\setlength{\headheight}{15pt}
+\renewcommand{\arraystretch}{1}
+\usepackage{tikz}
+\usepackage{nicematrix}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt] (char) {#1};}}
+
+\newcolumntype{s}{>{\columncolor{Title}\RaggedLeft} m{3.5em}} % columntype for chapter title
+\newcolumntype{d}{>{\columncolor{LightBlue}\RaggedRight} m{\textwidth}} % columntype for code bloc
+\newcolumntype{a}{>{\columncolor{LightBlue}\RaggedRight} m{0.96\textwidth}} % columntype for secondary code bloc
+
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\urlstyle{same}
+
+\newenvironment{term}[1]
+{\subsubsection{#1}}
+{}
+
+\newenvironment{secterm}[1]
+{\subsubsection{#1}}
+{}
+
+\newenvironment{codebloc}
+{\quote}
+{\endquote}
+
+\newcommand{\note}[2][NOTE]{ %Note/Tips
+\begin{quote}
+    \textbf{#1}
+
+    #2
+\end{quote}
+}
+
+\newcommand{\secnote}[2][NOTE]{ %Note/Tips
+\begin{quote}
+    \textbf{#1}
+
+    #2
+\end{quote}
+}
+
+\renewcommand{\texttt}[1]{
+    !!code here!! #1
+}
