@@ -6,6 +6,9 @@
 
 [How to use this book?](preface/how_to_use.md)
 
+<!--Maybe add an unnumbered chapter. But don't know how to make the title bold.
+[**Preparation**](Part1.md)-->
+
 # Preparation
 
 - [Introduction to IoT](chapter_1/README.md)

@@ -9,4 +9,4 @@ is advised to carefully read the content of this section.
 
 > 📌 **Note** 
 >
->You can refer to the online documents available at https://bookc3.espressif.com/esp32c3, which provide the commands mentioned in this section.
+>You can refer to the online documents available at <https://bookc3.espressif.com/esp32c3>, which provide the commands mentioned in this section.
