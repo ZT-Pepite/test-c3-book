@@ -203,7 +203,7 @@
 		- [Analysis of Device Provisioning and Binding Requirements](chapter_10/10.3/10.3.3.md)
 		- [Analysis of Remote-Control Requirements](chapter_10/10.3/10.3.4.md)
 		- [Analysis of Scheduling Requirements](chapter_10/10.3/10.3.5.md)
-		- [Analysis of User Centre Requirements](chapter_10/10.3/10.3.6.md)
+		- [Analysis of User Center Requirements](chapter_10/10.3/10.3.6.md)
 	- [Development of User Management](chapter_10/10.4/README.md)
 		- [Introduction to RainMaker APIs](chapter_10/10.4/10.4.1.md)
 		- [Initiating Communication via Smartphone](chapter_10/10.4/10.4.2.md)
