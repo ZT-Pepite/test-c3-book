@@ -11,9 +11,13 @@ Throughout the book, there will be parts highlighted as shown below.
 >
 > In this book, we emphasise the combination of theory and practice, and thus set a **Practice** section about the Smart Light project in almost every chapter. Corresponding steps and source page will be provided in blockquotes beginning with the tag 📝 **Source code**.
 
-> 📌 **Note** / 💡 **Tip**
+> 📌  **Tip**
 >
-> This is where you may find some critical information and reminding for successfully debugging your program. They will be marked in blockquotes beginning with the tag 📌 **Note** or 💡 **Tip**.
+> This is where you may find some critical information and reminding for successfully debugging your program. They will be marked in blockquotes beginning with the tag 📌 **Tip**.
+
+>  📚 **Further Reading**
+>
+> Here is the expanded reading section, which will facilitate a deeper understanding for you of the related technical points.📚 **Further Reading**
 
 Most of the commands in this book are executed under Linux, prompted by the character “`$`”. If the command requires superuser privileges to execute, the prompt will be replaced by “`#`”. The command prompt on Mac systems is “`%`”, as used in Section 4.2.3 Installing ESP-IDF on Mac.
 
