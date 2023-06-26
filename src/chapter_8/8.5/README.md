@@ -1,4 +1,4 @@
-# Practice: Local Control in Smart Light Project
+# 🧐 Practice: Local Control in Smart Light Project
 
 The local control component (`esp_local_ctrl`) of ESP-IDF enables you to
 control Espressif chips via Wi-Fi+HTTPS or Bluetooth LE easily. With

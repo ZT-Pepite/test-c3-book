@@ -1,4 +1,4 @@
-# Practice: Compiling Example Program “Blink”
+# 🧐 Practice: Compiling Example Program “Blink”
 
 - [Example Analysis](4.4.1.md)
 - [Compiling the Blink Program](4.4.2.md)

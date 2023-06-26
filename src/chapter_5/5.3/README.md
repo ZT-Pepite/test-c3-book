@@ -1,4 +1,4 @@
-# Practice: Building a Smart Light System with ESP32-C3
+# 🧐 Practice: Building a Smart Light System with ESP32-C3
 
 Section 5.2 introduced how to design the minimum hardware system (core circuit) and communication system for smart light products based on ESP32-C3. This minimum hardware system includes the main peripheral components and the antenna part which needs to be matched with the network analyser and RF tester according to the selected antenna type and the design of RF circuit. Antenna matching may be difficult for users who are new to RF. So, is there a ready-made minimum hardware system which has been tuned for RF performance, for users to get started quickly to develop a smart light product?
 

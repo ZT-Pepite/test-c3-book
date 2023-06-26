@@ -1,4 +1,4 @@
-# Practice: Remote Control through ESP RainMaker
+# 🧐 Practice: Remote Control through ESP RainMaker
 
 After reading the previous chapters, you should have a basic
 understanding of Wi-Fi configuration and MQTT protocol. In this section,
