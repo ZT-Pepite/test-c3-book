@@ -11,7 +11,7 @@ Throughout the book, there will be parts highlighted as shown below.
 >
 > In this book, we emphasise the combination of theory and practice, and thus set a **Practice** section about the Smart Light project in almost every chapter. Corresponding steps and source page will be provided in blockquotes beginning with the tag 📝 **Source code**.
 
-> 📌  **Tip**
+> 📌 **Tip**
 >
 > This is where you may find some critical information and reminding for successfully debugging your program. They will be marked in blockquotes beginning with the tag 📌 **Tip**.
 
