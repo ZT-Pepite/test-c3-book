@@ -220,9 +220,9 @@
 		- [Getting a List of Devices](chapter_10/10.6/10.6.2.md)
 		- [Getting Device Status](chapter_10/10.6/10.6.3.md)
 		- [Changing Device Status](chapter_10/10.6/10.6.4.md)
-	- [Development of Scheduling and User Centre](chapter_10/10.7/README.md)
+	- [Development of Scheduling and User Center](chapter_10/10.7/README.md)
 		- [Implementing Scheduling Function](chapter_10/10.7/10.7.1.md)
-		- [Implementing User Centre](chapter_10/10.7/10.7.2.md)
+		- [Implementing User Center](chapter_10/10.7/10.7.2.md)
 		- [More Cloud APIs](chapter_10/10.7/10.7.3.md)
 	- [Summary](chapter_10/summary.md)
 

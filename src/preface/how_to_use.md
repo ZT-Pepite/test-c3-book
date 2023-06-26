@@ -15,9 +15,9 @@ Throughout the book, there will be parts highlighted as shown below.
 >
 > This is where you may find some critical information and reminding for successfully debugging your program. They will be marked in blockquotes beginning with the tag 📌 **Tip**.
 
->  📚 **Further Reading**
+> 📚 **Further Reading**
 >
-> Here is the expanded reading section, which will facilitate a deeper understanding for you of the related technical points.📚 **Further Reading**
+> Here is the expanded reading section, which will facilitate a deeper understanding for you of the related technical points. They will be marked in blockquotes beginning with the tag 📚 **Further Reading**.
 
 Most of the commands in this book are executed under Linux, prompted by the character “`$`”. If the command requires superuser privileges to execute, the prompt will be replaced by “`#`”. The command prompt on Mac systems is “`%`”, as used in Section 4.2.3 Installing ESP-IDF on Mac.
 
