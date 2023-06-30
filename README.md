@@ -8,6 +8,34 @@
 - All the source code can be downloaded from Espressif’s [GitHub repository](https://github.com/espressif/book-esp32c3-iot-projects).
 - You can also share your thoughts and questions on Espressif’s [official forum](https://www.esp32.com/bookc3).
 
-## 🌟 Your turn!
+## 🏃‍♂️ Quickstart
 
-We sincerely welcome you to contribute your translation so that more developers can join our adventure with ESP32-C3!
+This book is generated using [mdbook](https://github.com/rust-lang/mdBook), a utility to create modern online books from **Markdown** files.
+
+Check out the [User Guide](https://rust-lang.github.io/mdBook/) for a list of features and installation and usage information.
+
+To install the tool:
+
+```shell
+cargo install mdbook
+```
+
+Then you can clone the respository and start a development server by running:
+
+```shell
+git clone https://github.com/ZT-Pepite/esp32-c3-book-en.git (📌 The link is to be updated.)
+cd ~/esp32-c3-book-en
+mdbook serve
+```
+
+## 🤝 Contribution
+
+Please check [CONTRIBUTING.md](CONTRIBUTING.md) if you'd like to help improve the book. Contributions in the forms of pull requests, bug reports, and feature requests are all welcome!
+
+## 🤹 Share your adventure
+
+More topics are coming to join our adventure (e.g., Matter, AI, and HMI). Fancy a chapter written by yourself? Check out our [writing guidelines](WRITINGS.md).
+
+## 🙌 Help wanted
+
+Would you like to contribute a **translation**? Please read our [translation guidelines](TRANSLATIONS.md).
