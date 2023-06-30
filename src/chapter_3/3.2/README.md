@@ -8,7 +8,7 @@ As shown in Figure 3.2, ESP RainMaker consists of four parts:
 - **RainMaker Client** (RainMaker App or CLI scripts), for provisioning, user creation, device association and control, etc.
 
 <figure align="center">
-    <img src="../../Pics/D3Z/3-2.jpg" width="80%">
+    <img src="../../Pics/D3Z/3-2.jpg" width="90%">
     <figcaption>Figure 3.2. Structure of ESP RainMaker</figcaption>
 </figure>
 
