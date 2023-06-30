@@ -28,9 +28,7 @@ To help you clarify your writing ideas, here is a checklist for you to plan the 
 *[Insert here]*
 
 ## Section titles (3-5 sections)
-> Same as chapter titles, actionable names are also recommended for section titles.
->
-> make clear what readers are going to learn from the section.
+> Same as chapter titles, actionable names are also recommended for section titles. Make clear what readers are going to learn from the section.
 >
 > Keep an appropriate length of the title. 3-5 words would be preferred.
 
