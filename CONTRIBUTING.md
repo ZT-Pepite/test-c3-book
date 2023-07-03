@@ -12,9 +12,7 @@ This document covers various types of contribution to the ESP32-C3 Wireless Adve
 
 Repositories and softwares are always upgrading. Should you encounter a **missing link**, **obsolete coding**, **typo**, different **setting requirement** for the softwares, or any other issues, don't hesitate to modify the content of corresponding .md files. Someone else may have just been stuck here! 💥
 
-> 📌 **Note**
->
-> Remember to provide comments beside the change so that we can fully understand the issue.
+> **Note**: Remember to provide comments beside the change so that we can fully understand the issue.
 
 ## 💡 Tip offers
 
