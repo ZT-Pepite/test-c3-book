@@ -6,7 +6,7 @@ We welcome translations for the sections in this book!
 
 There are folders in each chapter folder which contain the translated markdown files. Create folders for your language if there are no existing ones. We look forward to translations of vaious languages. 🤩 
 
-> 📌 **Note**
+> **Note**
 >
 > Please do not translate anything in the code blocks. Translations of pictures are appeciated. Check [pic-translation.xlsx](src/Pics/pic-translation.xlsx) to see the fiugre translations required.
 
@@ -16,7 +16,7 @@ Translated files should follow this naming convention:
 
 where _[language]_ is a two letter language abbreviation following the [ISO 639-1 standard](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (e.g., `README.ru.md` for Russian and `README.de.md` for German).
 
-> 📌 **Note**
+> **Note**
 >
 > - Almost each chapter and section has a README.md in this book. Make sure that you put the translated README.md in the right folder to avoid file conflicts.
 >
