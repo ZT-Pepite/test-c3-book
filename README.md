@@ -8,7 +8,7 @@
 - All the source code can be downloaded from Espressif’s [GitHub repository](https://github.com/espressif/book-esp32c3-iot-projects).
 - You can also share your thoughts and questions on Espressif’s [official forum](https://www.esp32.com/bookc3).
 
-## 🏃‍♂️ Quickstart
+## 🏃 Quickstart
 
 This book is generated using [mdbook](https://github.com/rust-lang/mdBook), a utility to create modern online books from **Markdown** files.
 
