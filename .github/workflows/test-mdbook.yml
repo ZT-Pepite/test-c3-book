@@ -17,7 +17,7 @@ jobs:
 
       - uses: jontze/action-mdbook@v2
         with:
-          token: ${{secrets.GITHUB_TOKEN}}
+          token: ${{secrets.TEST_TOKEN}}
           use-mermaid: true
 
       - name: Check for broken links
@@ -31,6 +31,6 @@ jobs:
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.TEST_TOKEN }}
           force_orphan: true
           publish_dir: ./esp32-c3-book-en
