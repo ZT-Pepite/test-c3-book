@@ -1,36 +1,30 @@
-name: test
+name: github pages
 
 on:
   push:
+    branches:
+      - main
   pull_request:
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
 
-      - uses: dtolnay/rust-toolchain@v1
+      - name: Setup mdBook
+        uses: peaceiris/actions-mdbook@v1
         with:
-          toolchain: nightly
-          components: rust-docs
+          mdbook-version: '0.4.10'
+          # mdbook-version: 'latest'
 
-      - uses: jontze/action-mdbook@v2
-        with:
-          token: ${{secrets.TEST_TOKEN}}
-          use-mermaid: true
+      - run: mdbook build
 
-      - name: Check for broken links
-        run: |
-          curl -sSLo linkcheck.sh \
-            https://raw.githubusercontent.com/rust-lang/rust/master/src/tools/linkchecker/linkcheck.sh
-          # Cannot use --all here because of the generated redirect pages aren't available.
-          sh linkcheck.sh book
-
-      - name: Deploy book
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
         with:
-          github_token: ${{ secrets.TEST_TOKEN }}
-          force_orphan: true
-          publish_dir: ./esp32-c3-book-en/src
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./book
