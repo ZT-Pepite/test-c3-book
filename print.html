@@ -209,63 +209,18 @@ Forum: <a href="https://www.esp32.com/bookc3">https://www.esp32.com/bookc3</a></
 </ul>
 <h2 id="about-the-source-code"><a class="header" href="#about-the-source-code">About the Source Code</a></h2>
 <p>Readers can run the example programmes in this book, either by entering the code manually or by using the source code that accompanies the book. We emphasise the combination of theory and practice, and thus set a <em>Practice</em> section based on the Smart Light project in almost every chapter. All the codes are open-sourced. Readers are welcome to download the source code and discuss it in the sections related to this book on <a href="https://github.com/espressif/book-esp32c3-iot-projects">GitHub</a> and our official forum <a href="https://www.esp32.com/bookc3">esp32.com</a>. The open-sourced code of this book is subject to the terms of Apache License 2.0.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="introduction-to-iot"><a class="header" href="#introduction-to-iot">Introduction to IoT</a></h1>
-<p>At the end of the 20th century, with the rise of computer networks and communication technologies, Internet rapidly integrated into people’s lives. As Internet technology continues to mature, the idea of Internet of Things (IoT) was born. Literally, IoT means an Internet where things are connected. While the original Internet breaks the limits of space and time and narrows the distance between “person and person”, IoT makes “things” an important participant, bringing “people” and “things” closer together. In the foreseeable future, IoT is set to become the driving force of the information industry.</p>
-<p>So, what is the Internet of Things?</p>
-<p>It is hard to accurately define the Internet of Things, as its meaning and scope are constantly evolving. In 1995, Bill Gates first brought up the idea of IoT in his book <em>The Road Ahead</em>. Simply put, IoT enables objects to exchange information with each other through Internet. Its ultimate goal is to establish an “Internet of Everything”. This is an early interpretation of IoT, as well as a fantasy of future technology. Thirty years later, with the rapid development of economy and technology, the fantasy is coming into reality. From smart devices, smart homes, smart cities, Internet of Vehicles and wearable devices, to the “metaverse” supported by IoT technologies, new concepts are constantly emerging. In this chapter, we will begin with an explanation of the architecture of Internet of Things, and then introduce the most common IoT application, the smart home, in order to help you get a clear understanding of IoT.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="test"><a class="header" href="#test">test</a></h1>
+<p>test</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="architecture-of-iot"><a class="header" href="#architecture-of-iot">Architecture of IoT</a></h1>
-<p>Internet of Things involves multiple technologies which have different application needs and forms in different industries. In order to sort out the structure, the key technologies and application characteristics of IoT, it is necessary to establish a unified architecture and a standard technical system. In this book, the architecture of IoT is simply divided into four layers: perception &amp; control layer, network layer, platform layer, and application layer.</p>
-<h2 id="perception--control-layer"><a class="header" href="#perception--control-layer">Perception &amp; Control Layer</a></h2>
-<p>As the most basic element of the IoT architecture, perception &amp; control layer is the core to realise the comprehensive sensing of IoT. Its main function is to collect, identify and control information. It consists of a variety of devices with the ability of perception, identification, control and execution, and is responsible for retrieving and analysing data such as material properties, behavioural trends, and device status. In this way, IoT gets to recognise the real physical world. Besides, the layer is also able to control the status of the device.</p>
-<p>The most common devices of this layer are various sensors, which play an important role in information collection and identification. Sensors are like human sensory organs, such as photosensitive sensors equalling to vision, acoustic sensors to hearing, gas sensors to smelling, and pressure- and temperature-sensitive sensors to touching. With all these “sensory organs”, objects become “alive” and capable of intelligent perception, recognition and manipulation of the physical world.</p>
-<h2 id="network-layer"><a class="header" href="#network-layer">Network Layer</a></h2>
-<p>The main function of the network layer is to transmit information, including data obtained from the perception &amp; control layer to specified target, as well as commands issued from the application layer back to the perception &amp; control layer. It serves as an important communication bridge connecting different layers of an IoT system. To set up a basic model of Inter<strong>net</strong> of Things, it involves two steps to integrate objects into a <strong>net</strong>work: access to Internet and transmission through Internet.</p>
-<h3 id="access-to-internet"><a class="header" href="#access-to-internet">Access to Internet</a></h3>
-<p>Internet enables interconnection between person and person, but fails to include things into the big family. Before the advent of IoT, most things were not “network-able”. Thanks to the continuous development of technology, IoT manages to connect things to the Internet, thus realizing interconnection between “people and things”, and “things and things”. There are two common ways to implement Internet connection: wired network access and wireless network access.</p>
-<p>Wired network access methods include Ethernet, serial communication (e.g., RS-232, RS-485) and USB, while wireless network access depends on wireless communication, which can be further divided into short-range wireless communication and long-range wireless communication.</p>
-<p>Short-range wireless communication includes ZigBee, Bluetooth®, Wi-Fi, Near-Field Communication (NFC), and Radio Frequency Identification (RFID). Long-range wireless communication includes Enhanced Machine Type Communication (eMTC), LoRa, Narrow Band Internet of Things (NB-IoT), 2G, 3G, 4G, 5G, etc.</p>
-<h3 id="transmission-through-internet"><a class="header" href="#transmission-through-internet">Transmission through Internet</a></h3>
-<p>Different methods of Internet access lead to corresponding physical transmission link of data. The next thing is to decide which communication protocol to use to transmit the data. Compared with Internet terminals, most IoT terminals currently have fewer available resources, such as processing performance, storage capacity, network rate, etc., so it is necessary to choose a communication protocol that occupies fewer resources in IoT applications. There are two communication protocols that are widely used today: Message Queuing Telemetry Transport (MQTT) and Constrained Application Protocol (CoAP).</p>
-<h2 id="platform-layer"><a class="header" href="#platform-layer">Platform Layer</a></h2>
-<p>The platform layer mainly refers to IoT cloud platforms. When all IoT terminals are networked, their data need to be aggregated on an IoT cloud platform to be calculated and stored. The platform layer mainly supports IoT applications in facilitating access and management of massive devices. It connects IoT terminals to the cloud platform, collects terminal data, and issues commands to terminals, so as to implement remote control. As an intermediate service to assign equipment to industry applications, the platform layer plays a connecting role in the entire IoT architecture, carrying abstract business logic and standardized core data model, which can not only realize rapid access of devices, but also provide powerful modular capabilities to meet various needs in industry application scenarios. The platform layer mainly includes functional modules such as device access, device management, security management, message communication, monitoring operation and maintenance, and data applications.</p>
-<ul>
-<li>
-<p><strong>Device access</strong>, realising the connection and communication between terminals and IoT cloud platforms.</p>
-</li>
-<li>
-<p><strong>Device management</strong>, including functions such as device creation, device maintenance, data conversion, data synchronization, and device distribution.</p>
-</li>
-<li>
-<p><strong>Security management</strong>, ensuring the security of IoT data transmission from the perspectives of security authentication and communication security.</p>
-</li>
-<li>
-<p><strong>Message communication</strong>, including three transmission directions, that is, the terminal sends data to the IoT cloud platform, the IoT cloud platform sends data to the server side or other IoT cloud platforms, and the server side remotely controls IoT devices.</p>
-</li>
-<li>
-<p><strong>Monitoring O&amp;M</strong>, involving monitoring and diagnosis, firmware upgrade, online debugging, log services, etc.</p>
-</li>
-<li>
-<p><strong>Data applications</strong>, involving the storage, analysis and application of data.</p>
-</li>
-</ul>
-<h2 id="application-layer"><a class="header" href="#application-layer">Application Layer</a></h2>
-<p>The application layer uses the data from the platform layer to manage the application, filtering and processing them with tools such as databases and analysis software. The resulting data can be used for real-world IoT applications such as smart healthcare, smart agriculture, smart homes, and smart cities.</p>
-<br>
-Of course, the architecture of IoT can be subdivided into more layers, but no matter how many layers it consists of, the underlying principle remains essentially the same. Learning about the architecture of IoT helps deepen our understanding of IoT technologies and build fully functional IoT projects.<div style="break-before: page; page-break-before: always;"></div><h1 id="iot-application-in-smart-homes"><a class="header" href="#iot-application-in-smart-homes">IoT Application in Smart Homes</a></h1>
-<p>IoT has penetrated into all walks of life, and the most closely related IoT application to us is the smart home. Many traditional appliances are now equipped with one or more IoT devices, and many newly built houses are designed with IoT technologies from the start. Figure 1.1 shows some common smart home devices.</p>
-<figure align="center">
-    <img src="chapter_1/../Pics/D1Z/1-1-updated.jpg" width="80%">
-    <figcaption>Figure 1.1. Common smart home devices</figcaption>
-</figure>
-<p>The development of smart home can be simply divided into smart product stage, scene interconnection stage and intelligent stage, as shown in Figure 1.2.</p>
-<figure align="center">
-    <img src="chapter_1/../Pics/D1Z/1-2.jpg" width="100%">
-    <figcaption>Figure 1.2. Development stage of smart home</figcaption>
-</figure>
-<p>The first stage is about <strong>smart products</strong>. Different from traditional homes, in smart homes, IoT devices receive signals with sensors, and are networked through wireless communication technologies such as Wi-Fi, Bluetooth LE, and ZigBee. Users can control smart products in a variety of ways, such as smartphone apps, voice assistants, smart speaker control, etc.</p>
-<p>The second stage focuses on <strong>scene interconnection</strong>. In this stage, developers are no longer considering controlling single smart product, but interconnecting two or more smart products, automating to a certain extent, and finally forming a custom scene mode. For example, when the user presses any scene mode button, the lights, curtains, and air conditioners will be automatically adapted to the presets. Of course, there is the prerequisite that the linkage logic are readily set up, including trigger conditions and execution actions. Imagine that the air conditioning heating mode is triggered when the indoor temperature drops below 10°C; that at 7 o’clock in the morning, music is played to wake up the user, smart curtains are opened, and the rice cooker or bread toaster starts through a smart socket; as the user gets up and finishes washing, breakfast is already served, so that there will be no delay in going to work. How convenient has our life become!</p>
-<p>The third stage goes to <strong>intelligence stage</strong>. As more smart home devices are accessed, so will the types of data generated. With the help of cloud computing, big data and artificial intelligence, it is like a “smarter brain” has been planted into smart homes, which no longer require frequent commands from the user. They collect data from previous interactions and learn the user's behaviour patterns and preferences, so as to automate activities, including providing recommendations for decision-making.</p>
-<p>Currently, most smart homes are at the scene interconnection stage. As the penetration rate and intelligence of smart products increase, barriers between communication protocols are being removed. In the future, smart homes are bound to become really “smart”, just like the AI system Jarvis in <em>Iron Man</em>, which can not only help the user control various devices, handle daily affairs, but also have super computing power and thinking ability. In the intelligent stage, human beings will receive better services both in quantity and quality.</p>
+<p>test
+test
+test
+test</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="iot-application-in-smart-homes"><a class="header" href="#iot-application-in-smart-homes">IoT Application in Smart Homes</a></h1>
+<p>test
+test
+test
+test</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="introduction-and-practice-of-iot-projects"><a class="header" href="#introduction-and-practice-of-iot-projects">Introduction and Practice of IoT Projects</a></h1>
 <p>In Chapter 1, we introduced the architecture of IoT, and the roles and interrelationships of the perception &amp; control layer, network layer, platform layer, and application layer, as well as the development of smart home. However, just like when we learn to paint, knowing the theoretical knowledge is far from enough. We have to “get our hands dirty” to put IoT projects into practice in order to truly master the technology. In addition, when a project moves to the mass production stage, it is necessary to consider more factors such as network connection, configuration, IoT cloud platform interaction, firmware management and updates, mass production management, and security configuration.</p>
 <p>So, what do we need to pay attention to when developing a complete IoT project?</p>
