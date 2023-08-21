@@ -6,14 +6,13 @@
 
 [How to use this book?](preface/how_to_use.md)
 
-<!--Maybe add an unnumbered chapter. But don't know how to make the title bold.
 [**Preparation**](Part1.md)-->
 
 # Preparation
 
-- [Introduction to IoT](chapter_1/README.md)
-    - [Architecture of IoT](chapter_1/1.1.md)
-    - [IoT Application in Smart Homes](chapter_1/1.2.md)
+- [test](chapter_1/README.md)
+    - [test](chapter_1/1.1.md)
+    - [test](chapter_1/1.2.md)
 
 - [Introduction and Practice of IoT Projects](chapter_2/README.md)
     - [Introduction to Typical IoT Projects](chapter_2/2.1/README.md)
