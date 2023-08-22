@@ -14,9 +14,9 @@
     - [test](chapter_1/1.1.md)
     - [test](chapter_1/1.2.md)
 
-- [Introduction and Practice of IoT Projects](chapter_2/README.md)
-    - [Introduction to Typical IoT Projects](chapter_2/2.1/README.md)
-        - [Basic Modules for Common IoT Devices](chapter_2/2.1/2.1.1.md)
+- [test](chapter_2/README.md)
+    - [test](chapter_2/2.1/README.md)
+        - [test](chapter_2/2.1/2.1.1.md)
         - [Basic Modules of Client Applications](chapter_2/2.1/2.1.2.md)
         - [Introduction to Common IoT Cloud Platforms](chapter_2/2.1/2.1.3.md)
     - [🧐 Practice: Smart Light Project](chapter_2/2.2/README.md)
