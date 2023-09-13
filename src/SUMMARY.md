@@ -11,10 +11,10 @@
 # Preparation
 
 - [test](chapter_1/README.md)
-    - [test](chapter_1/1.1.md)
-    - [test](chapter_1/1.2.md)
+    - [test](chapter_1/1.1.md)<span class="deploy">▸</span></a>
+    - [test](chapter_1/1.2.md)<span class="deploy">▸</span></a>
 
-- [test](chapter_2/README.md)
+- [test](chapter_2/README.md)<span class="deploy">▸</span></a>
     - [test](chapter_2/2.1/README.md)
         - [test](chapter_2/2.1/2.1.1.md)
         - [Basic Modules of Client Applications](chapter_2/2.1/2.1.2.md)
@@ -26,7 +26,7 @@
         - [Development Process](chapter_2/2.2/2.2.4.md)
     - [Summary](chapter_2/summary.md)
 
-- [Introduction to ESP RainMaker](chapter_3/README.md)
+- [Introduction to ESP RainMaker](chapter_3/README.md)<span class="deploy">▸</span></a>
     - [What is ESP RainMaker?](chapter_3/3.1.md)
     - [The Implementation of ESP RainMaker](chapter_3/3.2/README.md)
         - [Claiming Service](chapter_3/3.2/3.2.1.md)
@@ -40,19 +40,19 @@
         - [Admin Features](chapter_3/3.4/3.4.3.md)
     - [Summary](chapter_3/summary.md)
 
-- [Setting Up Development Environment](chapter_4/README.md)
-    - [ESP-IDF Overview](chapter_4/4.1/README.md)
+- [Setting Up Development Environment](chapter_4/README.md)<span class="deploy">▸</span></a>
+    - [ESP-IDF Overview](chapter_4/4.1/README.md)<span class="deploy">▸</span></a>
         - [ESP-IDF Versions](chapter_4/4.1/4.1.1.md)
         - [ESP-IDF Git Workflow](chapter_4/4.1/4.1.2.md)
         - [Choosing a Suitable Version](chapter_4/4.1/4.1.3.md)
         - [Overview of ESP-IDF SDK Directory](chapter_4/4.1/4.1.4.md)
-    - [Setting Up ESP-IDF Development Environment](chapter_4/4.2/README.md)
+    - [Setting Up ESP-IDF Development Environment](chapter_4/4.2/README.md)<span class="deploy">▸</span></a>
         - [Setting up ESP-IDF Development Environment on Linux](chapter_4/4.2/4.2.1.md)
         - [Setting up ESP-IDF Development Environment on Windows](chapter_4/4.2/4.2.2.md)
         - [Setting up ESP-IDF Development Environment on Mac](chapter_4/4.2/4.2.3.md)
         - [Installing VS Code](chapter_4/4.2/4.2.4.md)
         - [Introduction to Third-Party Development Environments](chapter_4/4.2/4.2.5.md)
-    - [ESP-IDF Compilation System](chapter_4/4.3/README.md)
+    - [ESP-IDF Compilation System](chapter_4/4.3/README.md)<span class="deploy">▸</span></a>
         - [Basic Concepts of Compilation System](chapter_4/4.3/4.3.1.md)
         - [Project File Structure](chapter_4/4.3/4.3.2.md)
         - [Default Build Rules of the Compilation System](chapter_4/4.3/4.3.3.md)
