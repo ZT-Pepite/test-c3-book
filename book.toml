@@ -10,5 +10,5 @@ src = "src"
 git-repository-url = "https://github.com/ZT-Pepite/esp32-c3-book-en"
 mathjax-support = true
 edit-url-template = "https://github.com/ZT-Pepite/test-c3-book/blob/main/TRANSLATIONS.md"
-additional-js = ["custom.js"]
+additional-js = ["jquery-3.7.1.min.js", "custom.js"]
 additional-css = ["custom.css"]

@@ -1,31 +1,36 @@
-document.addEventListener('DOMContentLoaded', function () {
+$(document).ready(function () {
+    /* Retrieve the current submenu */
+
 
     /* Retrieve all the menus name and add a class to them. As such, they will be easier to describe later */
-    document.querySelectorAll(".chapter > .chapter-item:not(.affix):has(a)").forEach(elt => {
-        elt.classList += "chapter-name";
+    $(".chapter > .chapter-item:not(.affix):has(a)").each(function(index) {
+        $(this).addClass("chapter-name");
 
         /* Create a new HTML tag that will be added to all the menu titles */
-        const arrow = document.createElement('a');
-        arrow.innerText = '▾';
-        arrow.classList = "arrow";
-        arrow.href = "#";
-        elt.appendChild(arrow);
+        var arrow = $("<a>", {"class": "arrow", "href": "#"});
+        arrow.text('▸');
+        $(this).append(arrow);
+
+        /* Only remove "expanded" if the current page is not part of the submenu */
+        if ($(this).next("li").find(".active").length < 1) {
+            $(this).removeClass("expanded");
+        }
 
         /* Add listeners on all arrows */
-        arrow.addEventListener('click', function(e) {
+        arrow.on('click', function(e) {
             /* Check if the parent menu is expanded */
-            const parent = this.parentElement;
+            const parent = $(this).parent();
             /* Find the index of "expanded" in the class list */
-            const expanded = parent.classList.contains("expanded");
+            const expanded = parent.hasClass("expanded");
             /* If it is expanded, remove the class from it */
             if (expanded) {
                 /* Remove the class from the list */
-                parent.classList.remove("expanded");
+                parent.toggleClass("expanded");
                 /* Switch the icon */
-                this.innerText = '▸';
+                $(this).text('▸');
             } else {
-                parent.classList.add("expanded");
-                this.innerText = '▾';
+                parent.toggleClass("expanded");
+                $(this).text('▾');
             }
         });
 
